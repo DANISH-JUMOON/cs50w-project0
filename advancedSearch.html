@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/google_icon.png">
+</head>
+<body>
+     <!-- Upper left Links -->
+       <nav class="upper_right_nav mb flex">
+         <!-- Google upper left logo -->
+         <abbr title="Go To Google Home">
+              <!-- as google click on logo redirected to home page -->
+             <a href="index.html"><img src="assets/images/google-centered-image.png" class="google-logo" alt="logo"></a>
+         </abbr>
+           <ul class="upper_right_ul">
+               <li class="upper_right_li">       
+                 <!--advanced search link  -->
+                 <a href="index.html" class="left_links mr">Google Search</a>
+               </li>
+            </ul>
+      </nav>
+      <!-- advance search heading -->
+       <h6 class="advanced_heading">Advanced Search</h6>
+       <!-- for border -->
+        <div class="border"></div>
+        <!-- text and input boxes for advanced search-->
+         <div class="main-conatiner">
+            <!-- upper left and right text -->
+            <div class="upper-text">
+                <h6 class="upper-left-text">Find pages with...</h6>
+                <label class="upper-right-text">To do this in the search box.</label>
+            </div>
+         <form action="https://google.com/search" class="advanced-search-form">
+            <!-- input and text conatiner 1 -->
+            <div class="input-text-container">
+                <p class="input-left-text">all these words:</p>
+                <input type="text" name="as_q" class="advanced-search-input">
+                <p class="input-ref">Type the important words: <span class="ref-span">tri-colour rat terrier</span> </p>
+            </div>
+            <!-- input and text conatiner 2 -->
+            <div class="input-text-container">
+                <p class="input-left-text">this exact word or phrase:</p>
+                <input type="text" name="as_epq" class="advanced-search-input">
+                <p class="input-ref">Put exact words in quotes: <span class="ref-span">"rat terrier"</span> </p>
+            </div>
+            <!-- input and text conatiner 3 -->
+            <div class="input-text-container">
+                <p class="input-left-text">any of these words:</p>
+                <input type="text" name="as_oq" class="advanced-search-input">
+                <p class="input-ref">Type OR between all the words you want:  <span class="ref-span">miniature OR standard</span> </p>
+            </div>
+            <!-- input and text conatiner 4 -->
+            <div class="input-text-container">
+                <p class="input-left-text">none of these words:</p>
+                <input type="text" name="as_eq" class="advanced-search-input">
+                <p class="input-ref">Put a minus sign just before words that you don't want: <span class="ref-span">-rodent, -"Jack Russell"</span> </p>
+            </div>
+            <input type="submit" value="Advanced Search" class="advanced-search-btn">
+         </form>
+         </div>
+</body>
+</html>

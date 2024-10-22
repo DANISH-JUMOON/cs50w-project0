@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/google_icon.png">
+</head>
+<body>
+    <!-- Upper left Links -->
+    <nav class="upper_right_nav mb">
+        <ul class="upper_right_ul">
+          <li class="upper_right_li">       
+             <!--advanced search link  -->
+            <a href="index.html" class="left_links">Google Search</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- centered part -->
+      <section class="centered_section">
+        <div class="main">
+          <!-- center google image -->
+          <img src="assets/images/google-images.png" alt="google" class="center_google_img">
+          <!-- forn -->
+          <form action="https://google.com/search">
+           <!-- search querry input -->
+            <input type="text" name="q" class="google_search_input">
+            <!-- for google image -->
+            <input type="hidden" name="tbm" value="isch">
+            <!-- buttons -->
+            <div class="btns">
+              <input type="submit" value="Search Image" class="submit_btn">
+            </div>
+          </form>
+        </div>
+      </section>
+</body>
+</html>
