@@ -113,6 +113,7 @@ h6.advanced_heading {
     margin-top: 25px;
 }
 /* ********************* */
+/* main container of advanced search css */
 .main-conatiner {
     margin: 45px 10px 0px 45px;
     width: 100%;
@@ -144,6 +145,7 @@ p.input-left-text {
     color: #222;
     width: 182px;
 }
+/* advanced search bar css */
 input.advanced-search-input {
     border: 1px solid #d9d9d9;
     border-radius: 1px;
@@ -162,6 +164,7 @@ span.ref-span {
     font-family: monospace;
     color: #666;
 }
+/*advanced search button css */
 input.advanced-search-btn {
     cursor: default;
     font-size: 11px;
